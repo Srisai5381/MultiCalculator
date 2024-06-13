@@ -1,4 +1,4 @@
-package com.example.multicalculator.android
+package com.example.multicalculator.android.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -22,15 +22,15 @@ fun MyApplicationTheme(
 ) {
     val colors = if (darkTheme) {
         darkColorScheme(
-            primary = Color(0xFFBB86FC),
-            secondary = Color(0xFF03DAC5),
-            tertiary = Color(0xFF3700B3)
+            primary = Color(0xFFFFA726),
+            secondary = Color(0xFF66BB6A),
+            tertiary = Color(0xFFEF5350)
         )
     } else {
         lightColorScheme(
-            primary = Color(0xFF6200EE),
-            secondary = Color(0xFF03DAC5),
-            tertiary = Color(0xFF3700B3)
+            primary = Color(0xFFFF7043),
+            secondary = Color(0xFF42A5F5),
+            tertiary = Color(0xFFAB47BC)
         )
     }
     val typography = Typography(
